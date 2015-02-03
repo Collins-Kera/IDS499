@@ -1,0 +1,18 @@
+<p>This is the about view.</p>
+<input type="text" ng-model="name">
+{{user}}
+<p ng-class="{'hide' : !name}">
+Hello {{name }}!
+</p>
+<!-- pulls from array in about.js -->
+<div ng-repeat="user in users | orderBy: 'userId' | filter: name">
+	{{user.userId}} - {{user.profile.name}} 
+
+</div>
+<!-- pulls from firebase -->
+
+<div ng-repeat="fbuser in fbusers | orderBy: 'userId' | filter: name">
+	{{fbuser.$id}} - {{fbuser.name}} <button class="btn btn-danger" ng-click="removeUser(fbuser, fbusers);">Delete</button>
+
+</div>
+
