@@ -7,7 +7,35 @@
     </head>
     <body>
         <header>
+            
             <div id="topbar">
+                <!--Another search bar option -->
+                <!--<div class="search">
+			<form name="sform" id="sform" action="#" method="GET">
+				<input autocomplete="off" type="text" name="s" id="s" spellcheck="false" />
+			</form>
+		</div>-->
+              <!-- Need help styling search form. I have the CSS in the style.css at the bottom, but style is linking up to Google's site. Generated here https://cse.google.com/cse/create/new. -->
+               <!-- <div id="google-search">
+                    <div id='cse' style='width: 50%;'></div>
+                        <script src='//www.google.com/jsapi' type='text/javascript'></script>
+                        <script type='text/javascript'>
+                        google.load('search', '1', {language: 'en', style: google.loader.themes.V2_DEFAULT});
+                        google.setOnLoadCallback(function() {
+                          var customSearchOptions = {};
+                          var orderByOptions = {};
+                          orderByOptions['keys'] = [{label: 'Relevance', key: ''} , {label: 'Date', key: 'date'}];
+                          customSearchOptions['enableOrderBy'] = true;
+                          customSearchOptions['orderByOptions'] = orderByOptions;
+                          customSearchOptions['overlayResults'] = true;
+                          var customSearchControl =   new google.search.CustomSearchControl('015144256578299328570:7gujf2argmq', customSearchOptions);
+                          customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
+                          var options = new google.search.DrawOptions();
+                          options.setAutoComplete(true);
+                          customSearchControl.draw('cse', options);
+                        }, true);
+                        </script>
+                </div> -->
                 <ul id="social">
                     <li><a href="#" target="blank"><img src="images/facebook.png" alt="Facebook"></a></li>
                     <li><a href="#" target="blank"><img src="images/twitter.png" alt="Twitter"></a></li>
@@ -26,6 +54,16 @@
                 </ul>
             </nav>
         </header>
+       <!-- BREADCRUMBS... there is not a lot of depth in site so there may only be one breadcrumb. Use commented portions if more are needed. -->
+       <div id="content" class="clearfix">
+		<div id="breadcrumb2">
+			<ul class="crumbs2">
+				<li class="first"><a href="contact.html">Contact</a></li>
+				<!--<li><a href="#">Archives</a></li>
+				<li class="last"><a href="#">Tips for jQuery Development in HTML5</a></li>--> <!-- use if more breadcrumbs are needed -->				
+			</ul>
+		</div>
+	</div>
         <div id="main_contact">
             <h1>Contact Us</h1>
             <form action="#">
