@@ -111,6 +111,12 @@ nav ul li a:active {
         display: inline;
         float: right;
 }
+#main_contact {
+        width: 620px;
+        padding: 50px 20px 0px 30px;
+        display: inline;
+        float: left;
+}
 #home_image {
         width: 280px;
         padding: 0px 20px 0px 20px;
@@ -125,6 +131,53 @@ nav ul li a:active {
         font-weight: bold;
         color: #ffffff;
 }
+#sidebar-contact {
+        background-color:#6e88ae;
+        width: 260px;
+        height: 517px;
+        padding: 10px 20px 23px 40px;
+        display: inline;
+        float: right;
+        text-align: left;
+        font-weight: bold;
+        color: #ffffff;
+        margin-top: 80px;
+}
+.highlight {
+        background-color: rgba(215, 208, 205, 0.8);
+        padding: 10px 20px 10px 20px; 
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 520px;
+}
+.highlight-messagebox {
+        background-color: rgba(215, 208, 205, 0.8);
+        padding: 10px 20px 150px 20px;  
+        margin-bottom: 10px;
+}
+.button {
+	background-color: #1D4E89;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-family: 'Trebuchet MS', sans-serif;
+	font-size: 1.2em;
+	padding: 15px 15px;
+	text-decoration: none;
+        width: 280px;
+        text-align: center;
+        margin-top: 10px;
+}
+.button:hover {
+	background-color:#6E88AE;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
 footer {
 	display: block;
 	text-align: center;
@@ -133,7 +186,18 @@ footer {
 	padding-bottom: 40px;
 	background-color: #1d4e89;
 	margin-top: 300px;
-	margin-bottom: 20px;
+	margin-bottom: 0px;
+	font-size: .9em;
+}
+.footer-contact {
+        display: block;
+	text-align: center;
+	color: #cca756;
+	padding-top: 21px;
+	padding-bottom: 40px;
+	background-color: #1d4e89;
+	margin-top: 630px;
+	margin-bottom: 0px;
 	font-size: .9em;
 }
 footer nav ul {
