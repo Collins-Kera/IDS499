@@ -63,6 +63,7 @@ h1 {
 h2 {
 	padding-top: 10px;
 	font-size: 1.2em;
+        color: #1d4e89;
 }
 header nav {
 	height: 50px;
@@ -122,9 +123,33 @@ nav ul li a:active {
         display: inline;
         float: left;
 }
+#main_aboutortho {
+        width: 920px;
+        padding: 50px 20px 0px 30px;
+        display: inline;
+        float: left;
+}
 #home_image {
         width: 280px;
         padding: 0px 20px 0px 20px;
+}
+.image_inline {
+        width: 450px;
+        display: inline;
+        float: left;
+        border: 1px solid #1D4E89;
+}
+.text_inline {
+        width: 400px;
+        margin-left: 30px;
+        display: inline;
+        float: right;
+}
+.one-half-full {
+        display: block;
+        margin-bottom: 50px;
+        width: 920px;
+        height: 300px;
 }
 .sidebar {
         background-color:#6e88ae;
@@ -202,6 +227,17 @@ footer {
 	padding-bottom: 40px;
 	background-color: #1d4e89;
 	margin-top: 630px;
+	margin-bottom: 0px;
+	font-size: .9em;
+}
+.footer-aboutorth {
+        display: block;
+	text-align: center;
+	color: #cca756;
+	padding-top: 21px;
+	padding-bottom: 40px;
+	background-color: #1d4e89;
+	margin-top: 800px;
 	margin-bottom: 0px;
 	font-size: .9em;
 }
